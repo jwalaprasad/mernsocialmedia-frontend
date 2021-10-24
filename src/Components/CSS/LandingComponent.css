@@ -1,0 +1,28 @@
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%; 
+}
+.halfcontainer{
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexitem{
+    
+}
+
+@media (max-width: 800px){
+    .halfcontainer{
+        flex: 100%;
+    }
+    .flexcontainer{
+        margin-top: 50% ;
+    }
+}
+

@@ -1,0 +1,57 @@
+.logged {
+    visibility: visible;
+}
+.notlogged {
+    visibility: hidden;
+}
+
+
+.navbarcomponent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(39, 39, 39);
+  padding-left: 2%;
+}
+
+.navbarcomponent a{
+  text-decoration: none;
+}
+
+.navbarcomponent a:active{
+  color: gold;
+}
+
+.navbarcomponent a:visited{
+  color: white;
+}
+
+.navbarcomponent a:link{
+  color: white;
+}
+
+.navbarcomponent a:hover{
+  color: gold;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.navitem{
+  display: inline-block;
+}
+
+.navitem usearch{
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+.visible a{
+  text-decoration: none;
+}
+
+.hidden {
+  visibility: hidden;
+}

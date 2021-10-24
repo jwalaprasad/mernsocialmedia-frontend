@@ -1,0 +1,6 @@
+.registerform{
+    display: flex;
+}
+label{
+    display: block;
+}

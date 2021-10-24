@@ -1,0 +1,24 @@
+.UserComponent{
+    box-sizing: border-box;
+    width: calc(100%/3);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0px 2px 1px gray;
+    display: flex;
+}
+
+.UserId{
+    display: inline-block;
+}
+
+.useravatar{
+    display: inline-block;
+}
+
+.useravatar img{
+    max-height: 20px;
+    max-width: 20px;
+}
